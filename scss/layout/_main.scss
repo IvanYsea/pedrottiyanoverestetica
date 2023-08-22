@@ -1,0 +1,64 @@
+.semi-titulo {
+    @include flex( row, none, center, wrap, none);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.titulo {
+    width: 600px;
+    height: 500px;
+    border: 1px solid;
+    border-radius: 10px solid;
+    background-color: rgb(228, 104, 104);
+    text-align: center;
+    box-shadow: 2px 0 5px 3px;
+}
+.imagen {
+    width: 600px;
+    height: 500px;
+    box-shadow: 2px 0 5px 3px;
+}
+.imgg1 {
+    @extend .imagen;
+    border-radius: 7px
+}
+.titulo2 {
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    margin-top: 10%;
+}
+.titulo3 {
+    text-align: center;
+}
+.ofrecimiento {
+    @include flex(row, center, space-around, wrap, center);
+    background-color: whitesmoke;
+
+}
+.card {
+    border-radius: 1px;
+    background-color: rgb(247, 245, 245);
+    box-shadow: 2px 2px 4px black
+}
+.img1 {
+    border-radius: 1px solid;
+    height: 300px;
+    width: 288px;
+}
+.img2 {
+    @extend .img1;
+}
+.img3 {
+    @extend .img1;
+}
+.img4 {
+    @extend .img1;
+}
+.img5 {
+    @extend .img1;
+}
+.titulo4 {
+    text-align: center;
+}
