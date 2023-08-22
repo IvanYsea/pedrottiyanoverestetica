@@ -12,6 +12,10 @@
     border: 1px;
 }
 
+.navbar{
+    background-color:rgb(247, 245, 245);
+}
+
 
 .semi-titulo {
     display: flex;
@@ -132,6 +136,12 @@ footer {
         flex-direction: column;
         align-items: center;
         width: 100%;
+    }
+
+    .imgg1{
+    width: 500px;
+    height: 500px;
+
     }
 
     .direccion-r p {
