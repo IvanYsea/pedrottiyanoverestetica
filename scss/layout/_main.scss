@@ -35,6 +35,7 @@
 .ofrecimiento {
     @include flex(row, center, space-around, wrap, center);
     background-color: whitesmoke;
+    border-radius: 20px;
 
 }
 .card {

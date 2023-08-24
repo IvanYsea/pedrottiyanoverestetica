@@ -54,7 +54,8 @@
   justify-content: space-around;
   flex-wrap: wrap;
   align-items: center;
-  background-color: whitesmoke; }
+  background-color: whitesmoke;
+  border-radius: 20px; }
 
 .card {
   border-radius: 1px;
@@ -68,6 +69,27 @@
 
 .titulo4 {
   text-align: center; }
+
+.card-botox {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 31.25rem; }
+  .card-botox div {
+    background-color: #f7f5f5; }
+
+.card-body p {
+  text-align: center; }
+
+.card-body span {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+  .card-body span a {
+    text-decoration: none;
+    color: #0c0b0b; }
 
 .imagen-footer {
   width: 20px;
