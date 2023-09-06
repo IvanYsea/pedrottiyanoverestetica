@@ -1,3 +1,17 @@
 .navbar{
     background-color:$color-navbar;
+    .container-fluid{
+        .font{
+            color:  #e46868;
+        }
+    }
+    .collapse{
+        .navbar-nav{
+            .nav-item{
+                .active{
+                    color:  #e46868;
+                }
+            }
+        }
+    }
 }

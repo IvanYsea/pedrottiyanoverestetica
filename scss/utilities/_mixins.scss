@@ -6,3 +6,12 @@
     flex-wrap: $wrap;
     align-items: $aling;
 }
+
+@mixin card($direction, $evenly, $center, $wrap){
+display: flex;
+flex-direction: $direction;
+justify-content: $evenly;
+justify-content: $center;
+flex-wrap:$wrap;
+}
+
