@@ -8,6 +8,7 @@
 
 - HTML
 - CSS
+- SASS
 -  BOOTSTRAP
 - GIT
 - GITHUB
